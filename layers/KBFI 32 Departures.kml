@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KBFI 32 Departures</name>
+    <description>VFR departure routes for KBFI when using runway 32.</description>
+    <Style id="icon-1899-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-labelson-nodesc">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-12238-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>12.238</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-12238-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>18.357</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-12238-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-12238-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-12238-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-12819-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>12.819</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-12819-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>19.2285</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-12819-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-12819-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-12819-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-13206-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>13.206</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-13206-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>19.809</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-13206-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-13206-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-13206-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-13400-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>13.4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-13400-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>20.1</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-13400-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-13400-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-13400-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Green Lake</name>
+      <Placemark>
+        <name>Green Lake Departure</name>
+        <styleUrl>#line-9C27B0-13206-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.3116407,47.5409285,0
+            -122.3217688,47.5599297,0
+            -122.3198805,47.6092544,0
+            -122.3213343,47.642678,0
+            -122.3355017,47.6809586,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1,600</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3201721,47.6130696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Lake</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Green Lake Departure RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart runway and follow I-5 Northbound at <b>1,600 feet remaining east of downtown Seattle.</b><br><br>2. Once abeam Lake Union, turn slightly left to pass just west of Green Lake, then on course.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3355017,47.6809586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Blake</name>
+      <Placemark>
+        <name>Blake Departure</name>
+        <styleUrl>#line-9C27B0-12238-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.3116407,47.5409285,0
+            -122.3223453,47.5591189,0
+            -122.4910884,47.5425508,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<1,900]]></name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.395988,47.5514727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blake</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Blake Departure RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart runway and when able, turn westbound toward Blake Island remaining <b>at or below 1,700 feet.</b><br><br>2. Continue toward Blake Island and cross the shoreline <b>at or below 1,900 feet,<b><br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4910884,47.5425508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<1,700]]></name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3440604,47.5569178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Alki</name>
+      <Placemark>
+        <name>Alki Departure</name>
+        <styleUrl>#line-9C27B0-13400-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.3116407,47.5409285,0
+            -122.3218059,47.5590303,0
+            -122.4064349,47.5834094,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Alki</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Alki Departure RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart runway and as soon as able, turn northwest bound to Alki Beach (approx ground track 300).<br><br>2. Cross over Alki Beach <b>at or below 1,500 feet.</b><br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4064349,47.5834094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<1,500]]></name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.400341,47.5816726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bellevue</name>
+      <Placemark>
+        <name>Bellevue Departure</name>
+        <styleUrl>#line-9C27B0-13206-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.3116407,47.5409285,0
+            -122.3217688,47.5599297,0
+            -122.285757,47.5899511,0
+            -122.1983813,47.6208536,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bellevue</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Bellevue Departure RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart runway and when able, turn northeast  to overfly Mt. Baker at <b>1,600 feet.</b><br><br>2. Once north of I-90 bridge, fly toward the north side of downtown Bellevue, then on course.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1978664,47.6217792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1,600</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2838687,47.590993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Rainier Beach Transition</name>
+      <Placemark>
+        <name>Rainier Beach Transition</name>
+        <styleUrl>#line-9C27B0-12819-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.3116407,47.5409285,0
+            -122.3199176,47.557756,0
+            -122.3082347,47.5578724,0
+            -122.2622394,47.5215999,0
+            -122.1952914,47.4836787,0
+            -122.0390796,47.457222,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1,500</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.262926,47.5238024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1,900</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2128009,47.4945824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainier Beach Transition</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Rainier Beach Transition RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart runway, when able make right downwind departure to overfly Rainier Beach at <b>1,500 feet.</b><br><br>2. Expect frequency change to KRNT tower (<b>124.7</b>) prior to Rainier Beach.<br><br>3. At Rainier Beach continue climb to <b>1,900 </b>DIRECT to KRNT.<br><br>4. Continue present heading to SR-169 toward Cedar Hills landfill until outside of KRNT Class D airspace, then on course.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0390796,47.457222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

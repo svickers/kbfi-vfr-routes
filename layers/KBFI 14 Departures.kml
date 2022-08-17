@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KBFI 14 Departures</name>
+    <description>VFR departure routes for KBFI when using runway 32.</description>
+    <Style id="icon-1899-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-labelson-nodesc">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-12238-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>12.238</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-12238-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>18.357</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-12238-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-12238-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-12238-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-12819-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>12.819</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-12819-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>19.2285</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-12819-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-12819-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-12819-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-13206-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>13.206</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-13206-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>19.809</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-13206-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-13206-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-13206-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-13400-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>13.4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-13400-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>20.1</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-13400-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-13400-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-13400-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Green Lake</name>
+      <Placemark>
+        <name>Green Lake Departure</name>
+        <styleUrl>#line-9C27B0-13206-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.2880367,47.5136312,0
+            -122.2809516,47.5154547,0
+            -122.2917281,47.5321207,0
+            -122.2891531,47.5905026,0
+            -122.2916369,47.6567863,0
+            -122.302886,47.681652,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1,600</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2904745,47.5936253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Lake</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Green Lake Departure RWY 14</p><br><p style="font-size: 3em; font-family:-apple-system; text-align:center;">Green Lake Departure</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>Depart runway, make a <b>left downwind</b> departure to overfly Mt. Baker at 1,600 feet.<br><br>Continue north to cross over UW, <b>remain east of I-5</b> until passing Green Lake, then on course.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3021994,47.6818831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Vashon</name>
+      <Placemark>
+        <name>Vashon Departure</name>
+        <styleUrl>#line-9C27B0-12238-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.296963,47.5232536,0
+            -122.2884952,47.5132829,0
+            -122.295506,47.5114282,0
+            -122.307496,47.5266733,0
+            -122.4698025,47.5105585,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Vashon</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Vashon Departure RWY 14</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart full length RWY 14R straight out until reaching <b>700 feet</b><br><br>2. Make continuous <b>right turn</b> to the downwind at or inside of the <b>Duwamish river</b> while maintaining <b>700'</b><br><br>3. After passing white Boeing tent hangars, make left turn westbound toward the north tip of <b>Vashon Island</b>.<br><br>4. Remain <b>south</b> of Lincoln Park and below Seatac Bravo airspace.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4703181,47.5101549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>700</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2985264,47.5117437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Alki</name>
+      <Placemark>
+        <name>Alki Departure</name>
+        <styleUrl>#line-9C27B0-13400-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.307496,47.5266733,0
+            -122.3091888,47.5287867,0
+            -122.4202778,47.5767189,0
+            -122.4794026,47.5829361,0
+            -122.5070285,47.6224155,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Alki</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Alki Departure RWY 14</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart full length RWY 14R straight out until reaching <b>700 feet</b><br><br>2. Make continuous <b>right turn</b> to the downwind at or inside of the <b>Duwamish river</b> while maintaining <b>700'</b><br><br>3. After passing the tower, make a slight <b>left</b> turn toward Alki Point lighthouse. Maintain <b>at or below 1,500 feet</b><br><br>4. Proceed to Restoration Point, then toward Bainbridge Island, then on course.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5137237,47.6175525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<1,500]]></name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4171639,47.5763461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bellevue</name>
+      <Placemark>
+        <name>Bellevue Departure</name>
+        <styleUrl>#line-9C27B0-13206-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.2917281,47.5321207,0
+            -122.254343,47.5908773,0
+            -122.1946047,47.6082402,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bellevue</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Bellevue Departure RWY 14</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart runway, make a <b>left downwind</b><br><br>2. Once midfield, make <b>right turn</b> to overfly where I-90 bridge meets Mercer Island, maintaining <b>1,600 feet</b><br><br>3. Fly northeast to remain north of Mercer Island and south of Downtown Bellevue.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1954629,47.6078935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1,600</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2327139,47.6033783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Kent</name>
+      <Placemark>
+        <name>Kent</name>
+        <styleUrl>#line-9C27B0-12819-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.291728,47.5167035,0
+            -122.242155,47.4792702,0
+            -122.2299571,47.3891632,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Kent</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Kent Departure RWY 14</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Depart runway southeast bound staying <b>EAST</b> of I-5 and below 1,100 until abeam concrete plant.<br><br>2. Make slight right turn to fly between <b>Southcenter</b> and railroad tracks to Kent.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2309964,47.3873082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1,100</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2406951,47.4788061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KBFI 32 Arrivals</name>
+    <description>Arrival procedures for RWY 32 configuration at KBFI.</description>
+    <Style id="icon-1501-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1501-C2185B-labelson-nodesc">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-labelson-nodesc">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-11463-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>11.463</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-11463-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>17.1945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-11463-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-11463-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-11463-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-11656-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>11.656</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-11656-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>17.484</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-11656-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-11656-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-11656-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-11850-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>11.85</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-11850-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>17.775</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-11850-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-11850-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-11850-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-14369-nodesc-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>14.369</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-9C27B0-14369-nodesc-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>21.5535</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-14369-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-14369-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-14369-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Green Lake Arrival</name>
+      <Placemark>
+        <name>Green Lake Arrival</name>
+        <styleUrl>#line-9C27B0-11850-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.3355878,47.6777996,0
+            -122.2748197,47.6426516,0
+            -122.2859777,47.5580377,0
+            -122.2638353,47.5130715,0
+            -122.2765364,47.5068094,0
+            -122.2777026,47.5064771,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1,200</name>
+        <styleUrl>#icon-1501-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2817807,47.5898755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Lake</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Green Lake Arrival RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Contact tower 118.3 over Green Lake.<br><br>2. Fly southeast toward 520 floating bridge and western Lake Washington shoreline.<br><br>3. From 520 bridge fly via the shoreline until I-90 bridge (<b>crossing I-90 bridge at 1,200 feet</b>).<br><br>4. Enter right downwind.<br></p>]]></description>
+        <styleUrl>#icon-1501-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3355878,47.6777996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Vashon Arrival</name>
+      <Placemark>
+        <name>Vashon Arrival</name>
+        <styleUrl>#line-9C27B0-11656-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.4740832,47.5101876,0
+            -122.3178714,47.5229406,0
+            -122.2938388,47.4987073,0
+            -122.2777026,47.5064771,0
+            -122.2979586,47.5229406,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1,000</name>
+        <styleUrl>#icon-1501-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3932307,47.5166804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vashon</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Vashon Arrival RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Contact tower 120.6 over North Vashon Island.<br><br>2. Fly eastbound (approx. 080) toward midfield.<br><br>3. After crossing the shoreline, <b>descend to 1,000 feet or below.</b><br><br>4. Over the Duwamish River enter left downwind, <b>maintain 800 ft.</b><br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4740832,47.5101876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>800</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3178714,47.5229406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bellevue Arrival</name>
+      <Placemark>
+        <name>Bellevue Arrival</name>
+        <styleUrl>#line-9C27B0-11463-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.1974986,47.6101573,0
+            -122.2452205,47.592332,0
+            -122.2812694,47.5499435,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1,600</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2452205,47.592332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bellevue</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Bellevue Arrival RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Contact tower 118.3 east of downtown Bellevue.<br><br>2. Fly toward where I-90 bridge meets Mercer Island east of Mt. Baker Tunnel.<br><br>3. Cross I-90 bridge at <b>1,600 feet</b>, then fly direct to midfield right downwind.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1974986,47.6101573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Kent Arrival</name>
+      <Placemark>
+        <name>Kent Arrival</name>
+        <styleUrl>#line-9C27B0-14369-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.2336166,47.3839984,0
+            -122.2191971,47.407239,0
+            -122.2171371,47.4453314,0
+            -122.2388386,47.4789827,0
+            -122.2777026,47.5064771,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1,100</name>
+        <styleUrl>#icon-1899-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2172716,47.4441245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kent</name>
+        <description><![CDATA[<p style="font-size: 3em; font-family:-apple-system; text-align:center;">Kent Arrival RWY 32</p><br><p style="font-size: 2em; font-family:-apple-system;"><br>1. Contact tower 118.3 over Kent.<br><br>2. Fly northbound along SR-167 until abeam Valley Medical Center/IKEA at <b>1,100 feet.</b><br><br>3. Fly over the east side of Renton Concrete Recyclers to make a straight-in approach.<br></p>]]></description>
+        <styleUrl>#icon-1899-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2336166,47.3839984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
